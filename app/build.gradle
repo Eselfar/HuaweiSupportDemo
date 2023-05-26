@@ -1,0 +1,100 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+
+    id "kotlin-kapt"
+    id 'com.huawei.agconnect'
+}
+
+android {
+    namespace 'com.sandbox.reborn'
+    compileSdk 33
+
+    signingConfigs {
+
+        def polandKeyProps = new Properties()
+        polandKeyProps.load(new FileInputStream(file('config/poland/keystore/polandKeystore.properties')))
+
+        // Signing configs for all Poland variants
+        // To note: related files have been removed from this demo for security purpose
+        polandDebug {
+            storeFile file(polandKeyProps['DEBUG_STORE_FILE'])
+            keyAlias polandKeyProps['DEBUG_KEY_ALIAS']
+            storePassword polandKeyProps['DEBUG_STORE_PASSWORD']
+            keyPassword polandKeyProps['DEBUG_KEY_PASSWORD']
+        }
+    }
+
+    defaultConfig {
+        applicationId 'pl.costacoffee.club'
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        resConfigs "en" // This version only supports English
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        // Sets Java compatibility to Java 8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+
+    // The default value for each feature is shown below. You can change the value to
+    // override the default behavior.
+    buildFeatures {
+        // Determines whether to generate a BuildConfig class.
+        buildConfig true
+        // Determines whether to support View Binding.
+        // Note that the viewBinding.enabled property is now deprecated.
+        viewBinding true
+        // Determines whether to support Data Binding.
+        // Note that the dataBinding.enabled property is now deprecated.
+        dataBinding false
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.polandDebug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.polandDebug
+        }
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:$desugarVersion"
+
+    implementation "androidx.core:core-ktx:1.9.0"
+
+    // Compat Libraries
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    // Timber
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    testImplementation "androidx.test.ext:junit:$junitVersion"
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0' // latest is higher
+
+    implementation "com.huawei.hms:site:$huaweiSiteVersion"
+    implementation "com.huawei.agconnect:agconnect-core:$huaweiAgConnectCore"
+
+    // When not added, I get an error as it can't find the SafeIntent class as the
+    // lib/arm64-v8a/libmap.so is missing
+    implementation "com.huawei.hms:maps-basic:$huaweiMapsVersion"
+}
