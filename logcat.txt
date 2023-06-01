@@ -1,0 +1,248 @@
+2023-06-01 18:13:08.485  2266-2266  studio.deploy           installer                            E  Could not get package user id: run-as: unknown package: pl.costacoffee.club
+2023-06-01 18:13:08.492  2266-2266  studio.deploy           installer                            E  Could not find apks for this package: pl.costacoffee.club
+2023-06-01 18:13:09.539   613-664   VerityUtils             system_process                       E  Failed to measure fs-verity, errno 1: /data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.apk
+---------------------------- PROCESS STARTED (8468) for package pl.costacoffee.club ----------------------------
+2023-06-01 18:13:09.576  8468-8468  ApplicationLoaders      pl.costacoffee.club                  D  Returning zygote-cached class loader: /system/framework/android.test.base.jar
+2023-06-01 18:13:09.592  8468-8468  nativeloader            pl.costacoffee.club                  D  Configuring classloader-namespace for other apk /system/framework/android.test.mock.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/lib/arm64:/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/pl.costacoffee.club
+2023-06-01 18:13:09.593  8468-8468  ApplicationLoaders      pl.costacoffee.club                  D  Returning zygote-cached class loader: /system/framework/android.test.base.jar
+2023-06-01 18:13:09.600  8468-8468  ostacoffee.club         pl.costacoffee.club                  W  ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*1628045882]#PCL[/system/framework/android.test.mock.jar*849501951]})
+2023-06-01 18:13:09.602  8468-8468  nativeloader            pl.costacoffee.club                  D  Configuring classloader-namespace for other apk /system/framework/android.test.runner.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/lib/arm64:/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/pl.costacoffee.club
+2023-06-01 18:13:09.603  8468-8468  ziparchive              pl.costacoffee.club                  W  Unable to open '/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.dm': No such file or directory
+2023-06-01 18:13:09.603  8468-8468  ziparchive              pl.costacoffee.club                  W  Unable to open '/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.dm': No such file or directory
+2023-06-01 18:13:09.732  8468-8468  nativeloader            pl.costacoffee.club                  D  Configuring classloader-namespace for other apk /data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/lib/arm64:/data/app/~~1nImHl6BXZqyqiM9wxM11w==/pl.costacoffee.club-AlQEpeyzFmZwY-nKRmsK1A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/pl.costacoffee.club
+2023-06-01 18:13:09.753  8468-8468  GraphicsEnvironment     pl.costacoffee.club                  V  ANGLE Developer option for 'pl.costacoffee.club' set to: 'default'
+2023-06-01 18:13:09.754  8468-8468  GraphicsEnvironment     pl.costacoffee.club                  V  ANGLE GameManagerService for pl.costacoffee.club: false
+2023-06-01 18:13:09.754  8468-8468  GraphicsEnvironment     pl.costacoffee.club                  V  Neither updatable production driver nor prerelease driver is supported.
+2023-06-01 18:13:09.760  8468-8468  NetworkSecurityConfig   pl.costacoffee.club                  D  No Network Security Config specified, using platform default
+2023-06-01 18:13:09.764  8468-8468  NetworkSecurityConfig   pl.costacoffee.club                  D  No Network Security Config specified, using platform default
+2023-06-01 18:13:09.766  8468-8468  AGConnectProvider       pl.costacoffee.club                  I  AGConnectInitializeProvider#onCreate
+2023-06-01 18:13:09.767  8468-8468  AGConnectInstance       pl.costacoffee.club                  I  AGConnectInstance#initialize
+2023-06-01 18:13:09.768  8468-8468  AGC_Instance            pl.costacoffee.club                  W  agc sdk initialize
+2023-06-01 18:13:09.769  8468-8468  AGC_Registrar           pl.costacoffee.club                  I  getServices
+2023-06-01 18:13:09.769  8468-8468  AGC_Registrar           pl.costacoffee.club                  I  services:0
+2023-06-01 18:13:09.769  8468-8468  AGC_Instance            pl.costacoffee.club                  D  AGConnectInstanceImpl init
+2023-06-01 18:13:09.770  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService start
+2023-06-01 18:13:09.770  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService end
+2023-06-01 18:13:09.770  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService start
+2023-06-01 18:13:09.770  8468-8468  AGC_Instance            pl.costacoffee.club                  D  AGConnectInstanceImpl init end
+2023-06-01 18:13:09.770  8468-8468  AGC_Instance            pl.costacoffee.club                  I  initFinish callback start
+2023-06-01 18:13:09.772  8468-8468  AGC_Instance            pl.costacoffee.club                  I  AGC SDK initialize end
+2023-06-01 18:13:09.802  8468-8517  libEGL                  pl.costacoffee.club                  D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-06-01 18:13:09.805  8468-8468  AppCompatDelegate       pl.costacoffee.club                  D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-06-01 18:13:09.806  8468-8517  libEGL                  pl.costacoffee.club                  D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-06-01 18:13:09.812  8468-8517  libEGL                  pl.costacoffee.club                  D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-06-01 18:13:09.876  8468-8468  Compatibil...geReporter pl.costacoffee.club                  D  Compat change id reported: 210923482; UID 10175; state: ENABLED
+2023-06-01 18:13:09.881  8468-8468  ostacoffee.club         pl.costacoffee.club                  W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-06-01 18:13:09.923  8468-8468  ostacoffee.club         pl.costacoffee.club                  W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-06-01 18:13:09.998  8468-8515  HostConnection          pl.costacoffee.club                  D  createUnique: call
+2023-06-01 18:13:10.000  8468-8515  HostConnection          pl.costacoffee.club                  D  HostConnection::get() New Host Connection established 0xb40000785f229f50, tid 8515
+2023-06-01 18:13:10.004  8468-8515  HostConnection          pl.costacoffee.club                  D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+2023-06-01 18:13:10.006  8468-8515  OpenGLRenderer          pl.costacoffee.club                  W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-06-01 18:13:10.007  8468-8515  OpenGLRenderer          pl.costacoffee.club                  W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-06-01 18:13:10.007  8468-8515  EGL_emulation           pl.costacoffee.club                  D  eglCreateContext: 0xb40000785f22a190: maj 3 min 0 rcv 3
+2023-06-01 18:13:10.012  8468-8515  EGL_emulation           pl.costacoffee.club                  D  eglMakeCurrent: 0xb40000785f22a190: ver 3 0 (tinfo 0x7a80cc0080) (first time)
+2023-06-01 18:13:10.037  8468-8515  Gralloc4                pl.costacoffee.club                  I  mapper 4.x is not supported
+2023-06-01 18:13:10.039  8468-8515  HostConnection          pl.costacoffee.club                  D  createUnique: call
+2023-06-01 18:13:10.039  8468-8515  HostConnection          pl.costacoffee.club                  D  HostConnection::get() New Host Connection established 0xb40000785f229650, tid 8515
+2023-06-01 18:13:10.039  8468-8515  goldfish-address-space  pl.costacoffee.club                  D  allocate: Ask for block of size 0x100
+2023-06-01 18:13:10.040  8468-8515  goldfish-address-space  pl.costacoffee.club                  D  allocate: ioctl allocate returned offset 0x1efff8000 size 0x8000
+2023-06-01 18:13:10.042  8468-8515  Gralloc4                pl.costacoffee.club                  W  allocator 4.x is not supported
+2023-06-01 18:13:10.046  8468-8515  HostConnection          pl.costacoffee.club                  D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+2023-06-01 18:13:10.091  8468-8515  Parcel                  pl.costacoffee.club                  W  Expecting binder but got null!
+2023-06-01 18:13:18.078  8468-8468  Compatibil...geReporter pl.costacoffee.club                  D  Compat change id reported: 163400105; UID 10175; state: ENABLED
+2023-06-01 18:13:18.119  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=2677.45ms min=15.73ms max=7972.00ms count=3
+2023-06-01 18:13:18.154  8468-8468  HmsSiteKit...Activity_4 pl.costacoffee.club                  I  onCreate.
+2023-06-01 18:13:18.228  8468-8468  AutofillManager         pl.costacoffee.club                  D  Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+2023-06-01 18:13:18.255  8468-8468  AGConnectInstance       pl.costacoffee.club                  I  AGConnectInstance#initialize
+2023-06-01 18:13:18.255  8468-8468  AGC_Instance            pl.costacoffee.club                  W  agc sdk initialize
+2023-06-01 18:13:18.255  8468-8468  AGC_Instance            pl.costacoffee.club                  W  Repeated invoking initialize
+2023-06-01 18:13:18.255  8468-8468  AGC_ConfigImpl          pl.costacoffee.club                  D  initConfigReader
+2023-06-01 18:13:18.268  8468-8468  AGC_FlexibleDecrypt     pl.costacoffee.club                  D  init
+2023-06-01 18:13:18.271  8468-8468  AGC_Keys                pl.costacoffee.club                  D  build aes key, iterationCount:1
+2023-06-01 18:13:18.282  8468-8468  AGC_Keys                pl.costacoffee.club                  D  build aes key end
+2023-06-01 18:13:18.336  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  aidlService pkgName: com.huawei.hwid
+2023-06-01 18:13:18.336  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:18.338  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  <initHmsPackageInfoForMultiService> Succeed to find HMS apk: com.huawei.hwid version: 61004301
+2023-06-01 18:13:18.340  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:18.342  8468-8468  AGC_FlexibleDecrypt     pl.costacoffee.club                  D  init
+2023-06-01 18:13:18.342  8468-8561  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  enter asyncOnceCheckMDMState
+2023-06-01 18:13:18.343  8468-8468  AGC_Keys                pl.costacoffee.club                  D  build aes key, iterationCount:1
+2023-06-01 18:13:18.343  8468-8561  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  enter checkHmsIsSpoof
+2023-06-01 18:13:18.343  8468-8468  AGC_Keys                pl.costacoffee.club                  D  build aes key end
+2023-06-01 18:13:18.345  8468-8468  AGC_Instance            pl.costacoffee.club                  D  AGConnectInstanceImpl init
+2023-06-01 18:13:18.345  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService start
+2023-06-01 18:13:18.345  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService end
+2023-06-01 18:13:18.345  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService start
+2023-06-01 18:13:18.345  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService start
+2023-06-01 18:13:18.345  8468-8468  AGC_ServiceRepository   pl.costacoffee.club                  D  addService end
+2023-06-01 18:13:18.345  8468-8468  AGC_Instance            pl.costacoffee.club                  D  AGConnectInstanceImpl init end
+2023-06-01 18:13:18.353  8468-8561  HMSSDK_ReadApkFileUtil  pl.costacoffee.club                  I  verifyMDMSignatureV3 verify successful!
+2023-06-01 18:13:18.358  8468-8468  HMSSDK_HianalyticsExist pl.costacoffee.club                  I  In isHianalyticsExist, Failed to find class HiAnalyticsConfig.
+2023-06-01 18:13:18.358  8468-8468  HMSSDK_HianalyticsExist pl.costacoffee.club                  I  hianalytics exist: false
+2023-06-01 18:13:18.359  8468-8468  HMSSDK_HMSBIInitializer pl.costacoffee.club                  I  Builder->biInitFlag :false
+2023-06-01 18:13:18.362  8468-8468  NetworkKit...ryCodeBean pl.costacoffee.club                  I  main|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|getVendorCountryCode|41|countryCode by ro.hw.country is: UNKNOWN
+2023-06-01 18:13:18.368  8468-8468  NetworkKit...ryCodeBean pl.costacoffee.club                  I  main|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|getSimCountryCode|76|countryCode by SimCountryIso is: us
+2023-06-01 18:13:18.368  8468-8468  NetworkKit...ryCodeBean pl.costacoffee.club                  I  main|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|init|32|get issue_country code from SIM_COUNTRY
+2023-06-01 18:13:18.368  8468-8561  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  quit checkHmsIsSpoof state: SUCCESS
+2023-06-01 18:13:18.368  8468-8468  HMSSDK_Ana...itchHolder pl.costacoffee.club                  I  not ChinaROM
+2023-06-01 18:13:18.368  8468-8561  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  quit asyncOnceCheckMDMState
+2023-06-01 18:13:18.375  8468-8562  HMSSDK_HiAnalyticsUtils pl.costacoffee.club                  I  Settings.SettingNotFoundException hw_app_analytics_state
+2023-06-01 18:13:18.431  8468-8562  HMSSDK_HiAnalyticsUtils pl.costacoffee.club                  I  get hms analyticsOobe state -1
+2023-06-01 18:13:18.432  8468-8562  HMSSDK_Ana...cheManager pl.costacoffee.club                  I  clear AnalyticsCache.
+2023-06-01 18:13:18.433  8468-8562  HMSSDK_Ana...itchHolder pl.costacoffee.club                  I  getStateForHmsAnalyticsProvider
+2023-06-01 18:13:18.484  8468-8515  Parcel                  pl.costacoffee.club                  W  Expecting binder but got null!
+2023-06-01 18:13:18.509  8468-8468  AssistStructure         pl.costacoffee.club                  I  Flattened final assist data: 1712 bytes, containing 1 windows, 11 views
+2023-06-01 18:13:18.644  8468-8468  InputMethodManager      pl.costacoffee.club                  D  showSoftInput() view=androidx.appcompat.widget.SearchView$SearchAutoComplete{98a8343 VFED..CL. .F...... 99,0-816,110 #7f09018d app:id/search_src_text aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+2023-06-01 18:13:18.880  8468-8468  OnBackInvokedCallback   pl.costacoffee.club                  W  OnBackInvokedCallback is not enabled for the application.
+                                                                                                    Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2023-06-01 18:13:18.917  8468-8468  InsetsController        pl.costacoffee.club                  D  show(ime(), fromIme=true)
+2023-06-01 18:13:19.644  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=290.27ms min=38.73ms max=500.26ms count=4
+2023-06-01 18:13:20.644  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=500.30ms min=499.08ms max=501.51ms count=2
+2023-06-01 18:13:21.802  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:21.816  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:21.827  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:21.827  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  No setInnerHms, hms pkg name is com.huawei.hwid
+2023-06-01 18:13:21.828  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  sendRequest
+2023-06-01 18:13:21.829  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:21.846  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:21.847  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  <initHmsPackageInfo> Succeed to find HMS apk: com.huawei.hwid version: 61004301
+2023-06-01 18:13:21.847  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:21.847  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  isConnected:false.
+2023-06-01 18:13:21.848  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  ====== HMSSDK version: 60900301 ======
+2023-06-01 18:13:21.849  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  Enter connect, Connection Status: 1
+2023-06-01 18:13:21.850  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=200.82ms min=55.87ms max=500.56ms count=6
+2023-06-01 18:13:21.851  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  connect minVersion:40003300 packageName:com.huawei.hwid
+2023-06-01 18:13:21.852  8468-8574  HMSSDK_Util             pl.costacoffee.club                  I  available exist: true
+2023-06-01 18:13:21.852  8468-8574  HMSSDK_Util             pl.costacoffee.club                  I  available exist: true
+2023-06-01 18:13:21.853  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  enter checkHmsIsSpoof
+2023-06-01 18:13:21.854  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  quit checkHmsIsSpoof cached state: SUCCESS
+2023-06-01 18:13:21.855  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:21.855  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:21.855  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  current versionCode:61004301, minimum version requirements: 40003300
+2023-06-01 18:13:21.856  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:21.856  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:21.857  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  MinApkVersion is disabled.
+2023-06-01 18:13:21.857  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  check available result: 0
+2023-06-01 18:13:21.858  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  enter bindCoreService, packageName is com.huawei.hwid, serviceAction is com.huawei.hms.core.aidlservice
+2023-06-01 18:13:21.861  8468-8574  HMSSDK_Out...derAdapter pl.costacoffee.club                  I  OuterBinderAdapter getInstance.
+2023-06-01 18:13:21.879  8468-8468  HMSSDK_BinderAdapter    pl.costacoffee.club                  I  BinderAdapter Enter onServiceConnected.
+2023-06-01 18:13:21.880  8468-8468  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  Enter onServiceConnected.
+2023-06-01 18:13:21.883  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  RequestManager handleMessage.
+2023-06-01 18:13:21.884  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  getAdapter:isInner:false, mInnerBinderAdapter:null, mOuterBinderAdapter:com.huawei.hms.adapter.OuterBinderAdapter@8c29984
+2023-06-01 18:13:21.886  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  onConnected
+2023-06-01 18:13:21.887  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  addToConnectedReqMap
+2023-06-01 18:13:21.889  8468-8574  HMSSDK_HmsClient        pl.costacoffee.club                  I  post msg api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, sdk_version:60900301, session_id:*, transaction_id:102640601estion20230601181321821756301, kitSdkVersion:0, apiLevel:14
+2023-06-01 18:13:21.891  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  In constructor, activityWeakReference is java.lang.ref.WeakReference@5b9c56d, activity is com.huawei.hms.site.widget.SearchActivity@31528cc
+2023-06-01 18:13:21.894  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  in baseRequest + uri is :site.querySuggestion, transactionId is : 102640601estion20230601181321821756301
+2023-06-01 18:13:21.895  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  init uri:site.querySuggestion
+2023-06-01 18:13:21.897  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResultCallback
+2023-06-01 18:13:22.345  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.346  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.349  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.349  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  No setInnerHms, hms pkg name is com.huawei.hwid
+2023-06-01 18:13:22.350  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  sendRequest
+2023-06-01 18:13:22.351  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:22.352  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:22.354  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  isConnected:true.
+2023-06-01 18:13:22.354  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  getAdapter:isInner:false, mInnerBinderAdapter:null, mOuterBinderAdapter:com.huawei.hms.adapter.OuterBinderAdapter@8c29984
+2023-06-01 18:13:22.355  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  addToConnectedReqMap
+2023-06-01 18:13:22.356  8468-8574  HMSSDK_HmsClient        pl.costacoffee.club                  I  post msg api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, sdk_version:60900301, session_id:*, transaction_id:102640601estion20230601181322347638945, kitSdkVersion:0, apiLevel:14
+2023-06-01 18:13:22.357  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  In constructor, activityWeakReference is java.lang.ref.WeakReference@f416d02, activity is com.huawei.hms.site.widget.SearchActivity@31528cc
+2023-06-01 18:13:22.357  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  in baseRequest + uri is :site.querySuggestion, transactionId is : 102640601estion20230601181322347638945
+2023-06-01 18:13:22.359  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  init uri:site.querySuggestion
+2023-06-01 18:13:22.360  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResultCallback
+2023-06-01 18:13:22.672  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.673  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.674  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:22.675  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  No setInnerHms, hms pkg name is com.huawei.hwid
+2023-06-01 18:13:22.675  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  sendRequest
+2023-06-01 18:13:22.675  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:22.676  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:22.676  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  isConnected:true.
+2023-06-01 18:13:22.677  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  getAdapter:isInner:false, mInnerBinderAdapter:null, mOuterBinderAdapter:com.huawei.hms.adapter.OuterBinderAdapter@8c29984
+2023-06-01 18:13:22.678  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  addToConnectedReqMap
+2023-06-01 18:13:22.678  8468-8574  HMSSDK_HmsClient        pl.costacoffee.club                  I  post msg api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, sdk_version:60900301, session_id:*, transaction_id:102640601estion20230601181322673134521, kitSdkVersion:0, apiLevel:14
+2023-06-01 18:13:22.679  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  In constructor, activityWeakReference is java.lang.ref.WeakReference@78839f3, activity is com.huawei.hms.site.widget.SearchActivity@31528cc
+2023-06-01 18:13:22.680  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  in baseRequest + uri is :site.querySuggestion, transactionId is : 102640601estion20230601181322673134521
+2023-06-01 18:13:22.680  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  init uri:site.querySuggestion
+2023-06-01 18:13:22.681  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResultCallback
+2023-06-01 18:13:23.230  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=229.98ms min=110.97ms max=530.89ms count=6
+2023-06-01 18:13:23.336  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.340  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.347  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.349  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  No setInnerHms, hms pkg name is com.huawei.hwid
+2023-06-01 18:13:23.353  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  sendRequest
+2023-06-01 18:13:23.355  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:23.356  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:23.357  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  isConnected:true.
+2023-06-01 18:13:23.357  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  getAdapter:isInner:false, mInnerBinderAdapter:null, mOuterBinderAdapter:com.huawei.hms.adapter.OuterBinderAdapter@8c29984
+2023-06-01 18:13:23.359  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  addToConnectedReqMap
+2023-06-01 18:13:23.360  8468-8574  HMSSDK_HmsClient        pl.costacoffee.club                  I  post msg api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, sdk_version:60900301, session_id:*, transaction_id:102640601estion20230601181323341984136, kitSdkVersion:0, apiLevel:14
+2023-06-01 18:13:23.361  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  In constructor, activityWeakReference is java.lang.ref.WeakReference@84d5be0, activity is com.huawei.hms.site.widget.SearchActivity@31528cc
+2023-06-01 18:13:23.363  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  in baseRequest + uri is :site.querySuggestion, transactionId is : 102640601estion20230601181323341984136
+2023-06-01 18:13:23.365  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  init uri:site.querySuggestion
+2023-06-01 18:13:23.365  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResultCallback
+2023-06-01 18:13:23.397  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.400  8468-8468  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.401  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageNameForMultiService
+2023-06-01 18:13:23.401  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  No setInnerHms, hms pkg name is com.huawei.hwid
+2023-06-01 18:13:23.402  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  sendRequest
+2023-06-01 18:13:23.402  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  Enter getHMSPackageName
+2023-06-01 18:13:23.403  8468-8574  HMSSDK_HMS...ageManager pl.costacoffee.club                  I  HMS Core version :61004301, needUpdate: false
+2023-06-01 18:13:23.403  8468-8574  HMSSDK_HuaweiApi        pl.costacoffee.club                  I  isConnected:true.
+2023-06-01 18:13:23.403  8468-8574  HMSSDK_BaseHmsClient    pl.costacoffee.club                  I  getAdapter:isInner:false, mInnerBinderAdapter:null, mOuterBinderAdapter:com.huawei.hms.adapter.OuterBinderAdapter@8c29984
+2023-06-01 18:13:23.404  8468-8574  HMSSDK_RequestManager   pl.costacoffee.club                  I  addToConnectedReqMap
+2023-06-01 18:13:23.404  8468-8574  HMSSDK_HmsClient        pl.costacoffee.club                  I  post msg api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, sdk_version:60900301, session_id:*, transaction_id:102640601estion20230601181323400642713, kitSdkVersion:0, apiLevel:14
+2023-06-01 18:13:23.405  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  In constructor, activityWeakReference is java.lang.ref.WeakReference@18e9d3f, activity is com.huawei.hms.site.widget.SearchActivity@31528cc
+2023-06-01 18:13:23.405  8468-8574  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  in baseRequest + uri is :site.querySuggestion, transactionId is : 102640601estion20230601181323400642713
+2023-06-01 18:13:23.405  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  init uri:site.querySuggestion
+2023-06-01 18:13:23.423  8468-8574  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResultCallback
+2023-06-01 18:13:24.398  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=389.15ms min=206.36ms max=500.52ms count=3
+2023-06-01 18:13:25.400  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=500.74ms min=497.41ms max=504.07ms count=2
+2023-06-01 18:13:26.415  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=507.43ms min=499.99ms max=514.87ms count=2
+2023-06-01 18:13:27.415  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=500.00ms min=494.45ms max=505.56ms count=2
+2023-06-01 18:13:28.915  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=499.92ms min=496.12ms max=502.19ms count=3
+2023-06-01 18:13:29.475  8468-8489  ostacoffee.club         pl.costacoffee.club                  I  Compiler allocated 4579KB to compile void android.view.ViewRootImpl.performTraversals()
+2023-06-01 18:13:29.930  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=507.52ms min=499.88ms max=515.15ms count=2
+2023-06-01 18:13:30.945  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=507.78ms min=496.99ms max=518.56ms count=2
+2023-06-01 18:13:31.947  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=500.78ms min=498.94ms max=502.62ms count=2
+2023-06-01 18:13:32.261  8468-8505  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResult:0
+2023-06-01 18:13:32.265  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  api is: site.querySuggestion, resolution: null, status_code: 1
+2023-06-01 18:13:32.265  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  baseCallBack.onComplete
+2023-06-01 18:13:32.266  8468-8468  HMSSDK_HmsClient        pl.costacoffee.club                  I  receive msg status_code:1, error_code:70006, api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, session_id:*, transaction_id:102640601estion20230601181321821756301, resolution:null
+2023-06-01 18:13:32.267  8468-8468  HMSSDK_TaskApiCall      pl.costacoffee.club                  I  doExecute, uri:site.querySuggestion, errorCode:70006, transactionId:102640601estion20230601181321821756301
+2023-06-01 18:13:32.267  8468-8468  HmsSiteKit...ApiCall_73 pl.costacoffee.club                  E  responseErrorCode errorCode = 70006 errorReason = CLIENT_BUSINESS_VERIFICATION_FAILED
+2023-06-01 18:13:32.270  8468-8468  HMSSDK_RequestManager   pl.costacoffee.club                  I  removeReqByTransId
+2023-06-01 18:13:32.568  8468-8505  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResult:0
+2023-06-01 18:13:32.569  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  api is: site.querySuggestion, resolution: null, status_code: 1
+2023-06-01 18:13:32.569  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  baseCallBack.onComplete
+2023-06-01 18:13:32.570  8468-8468  HMSSDK_HmsClient        pl.costacoffee.club                  I  receive msg status_code:1, error_code:70006, api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, session_id:*, transaction_id:102640601estion20230601181322347638945, resolution:null
+2023-06-01 18:13:32.570  8468-8468  HMSSDK_TaskApiCall      pl.costacoffee.club                  I  doExecute, uri:site.querySuggestion, errorCode:70006, transactionId:102640601estion20230601181322347638945
+2023-06-01 18:13:32.570  8468-8468  HmsSiteKit...ApiCall_73 pl.costacoffee.club                  E  responseErrorCode errorCode = 70006 errorReason = CLIENT_BUSINESS_VERIFICATION_FAILED
+2023-06-01 18:13:32.571  8468-8468  HMSSDK_RequestManager   pl.costacoffee.club                  I  removeReqByTransId
+2023-06-01 18:13:32.887  8468-8505  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResult:0
+2023-06-01 18:13:32.888  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  api is: site.querySuggestion, resolution: null, status_code: 1
+2023-06-01 18:13:32.889  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  baseCallBack.onComplete
+2023-06-01 18:13:32.890  8468-8468  HMSSDK_HmsClient        pl.costacoffee.club                  I  receive msg status_code:1, error_code:70006, api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, session_id:*, transaction_id:102640601estion20230601181322673134521, resolution:null
+2023-06-01 18:13:32.891  8468-8468  HMSSDK_TaskApiCall      pl.costacoffee.club                  I  doExecute, uri:site.querySuggestion, errorCode:70006, transactionId:102640601estion20230601181322673134521
+2023-06-01 18:13:32.891  8468-8468  HmsSiteKit...ApiCall_73 pl.costacoffee.club                  E  responseErrorCode errorCode = 70006 errorReason = CLIENT_BUSINESS_VERIFICATION_FAILED
+2023-06-01 18:13:32.892  8468-8468  HMSSDK_RequestManager   pl.costacoffee.club                  I  removeReqByTransId
+2023-06-01 18:13:33.446  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=499.58ms min=496.86ms max=501.55ms count=3
+2023-06-01 18:13:33.628  8468-8505  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResult:0
+2023-06-01 18:13:33.630  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  api is: site.querySuggestion, resolution: null, status_code: 1
+2023-06-01 18:13:33.630  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  baseCallBack.onComplete
+2023-06-01 18:13:33.631  8468-8468  HMSSDK_HmsClient        pl.costacoffee.club                  I  receive msg status_code:1, error_code:70006, api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, session_id:*, transaction_id:102640601estion20230601181323341984136, resolution:null
+2023-06-01 18:13:33.632  8468-8468  HMSSDK_TaskApiCall      pl.costacoffee.club                  I  doExecute, uri:site.querySuggestion, errorCode:70006, transactionId:102640601estion20230601181323341984136
+2023-06-01 18:13:33.632  8468-8468  HmsSiteKit...ApiCall_73 pl.costacoffee.club                  E  responseErrorCode errorCode = 70006 errorReason = CLIENT_BUSINESS_VERIFICATION_FAILED
+2023-06-01 18:13:33.634  8468-8468  HMSSDK_RequestManager   pl.costacoffee.club                  I  removeReqByTransId
+2023-06-01 18:13:33.654  8468-8505  HMSSDK_Pen...ResultImpl pl.costacoffee.club                  I  setResult:0
+2023-06-01 18:13:33.655  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  api is: site.querySuggestion, resolution: null, status_code: 1
+2023-06-01 18:13:33.656  8468-8468  HMSSDK_BaseAdapter      pl.costacoffee.club                  I  baseCallBack.onComplete
+2023-06-01 18:13:33.656  8468-8468  HMSSDK_HmsClient        pl.costacoffee.club                  I  receive msg status_code:1, error_code:70006, api_name:site.querySuggestion, app_id:102640601|, pkg_name:pl.costacoffee.club, session_id:*, transaction_id:102640601estion20230601181323400642713, resolution:null
+2023-06-01 18:13:33.657  8468-8468  HMSSDK_TaskApiCall      pl.costacoffee.club                  I  doExecute, uri:site.querySuggestion, errorCode:70006, transactionId:102640601estion20230601181323400642713
+2023-06-01 18:13:33.657  8468-8468  HmsSiteKit...ApiCall_73 pl.costacoffee.club                  E  responseErrorCode errorCode = 70006 errorReason = CLIENT_BUSINESS_VERIFICATION_FAILED
+2023-06-01 18:13:33.658  8468-8468  HMSSDK_RequestManager   pl.costacoffee.club                  I  removeReqByTransId
+2023-06-01 18:13:34.461  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=507.77ms min=498.54ms max=517.00ms count=2
+2023-06-01 18:13:35.466  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=502.30ms min=499.95ms max=504.65ms count=2
+2023-06-01 18:13:36.482  8468-8515  EGL_emulation           pl.costacoffee.club                  D  app_time_stats: avg=507.62ms min=496.59ms max=518.64ms count=2
+2023-06-01 18:13:37.840  8468-8468  HmsSiteKit...Activity_7 pl.costacoffee.club                  I  onPause.
